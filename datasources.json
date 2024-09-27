@@ -1,0 +1,1 @@
+{"id":1,"uid":"edz5irrek9rlsf","orgId":1,"name":"prometheus","type":"prometheus","typeName":"Prometheus","typeLogoUrl":"public/app/plugins/datasource/prometheus/img/prometheus_logo.svg","access":"proxy","url":"https://demo.promlabs.com","user":"","database":"","basicAuth":false,"isDefault":true,"jsonData":{"httpMethod":"POST"},"readOnly":false}

@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     user: ${UIDGID}
     ports:
-      - '3000:3000'
+      - 3000:3000
     volumes:
-      - '${PWD}/data:/var/lib/grafana'
+      - ${PWD}/data:/var/lib/grafana
+      - ${PWD}/datasources:/etc/grafana/provisioning/datasources
