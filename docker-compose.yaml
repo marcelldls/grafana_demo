@@ -7,5 +7,8 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ${PWD}/data:/var/lib/grafana
+      - grafana-storage:/var/lib/grafana
       - ${PWD}/datasources:/etc/grafana/provisioning/datasources
+
+volumes:
+  grafana-storage: {}
