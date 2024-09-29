@@ -9,6 +9,7 @@ services:
     volumes:
       - grafana-storage:/var/lib/grafana
       - ${PWD}/datasources:/etc/grafana/provisioning/datasources
+      - ${PWD}/dashboards:/etc/grafana/provisioning/dashboards
 
 volumes:
   grafana-storage: {}
